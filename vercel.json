@@ -1,13 +1,13 @@
 {
   "builds": [{
-    "src":"classifiedads/wsgi.py",
+    "src":"CampusPe/wsgi.py",
     "use":"@vercel/python",
-    "config":{ "maxLambdaSize": "15mb", runtime:"python3.11"}
+    "config":{ "maxLambdaSize": "15mb", runtime:"python3.9"}
   }]
   "routes":[
     {
       "src":"/(.*)",
-      "dest":"classifiedads/wsgi.py"
+      "dest":"CampusPe/wsgi.py"
      }
   ]
 }
