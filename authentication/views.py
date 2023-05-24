@@ -4,7 +4,7 @@ from django.contrib import messages
 # import authentication related stuffs
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.forms import User
+from django.contrib.auth.models import User
 
 from .forms import UserRegistrationForm
 
