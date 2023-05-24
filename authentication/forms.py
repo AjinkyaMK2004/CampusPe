@@ -2,7 +2,7 @@ from django.forms import ModelForm
 # importing default user registration form
 from django.contrib.auth.forms import UserCreationForm
 # importing built-in user model
-from django.contrib.auth.forms import User
+from django.contrib.auth.models import User
 from django import forms
 from ads.models import Author
 
